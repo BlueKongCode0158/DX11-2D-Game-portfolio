@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LogManager" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABYAAAAAAABAAIABABAAAAAAyAEAk0AA=</HashCode>
+      <FileName>Common\LogManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAABAAAEAQAAgAAAAAAA=</HashCode>
+      <FileName>Common\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectoryManager" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACACAAEAAAABAAAAAIDCAAAQGAAmAYAAAAA=</HashCode>
+      <FileName>Core\DirectoryManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAAQAAAEAAAACRAIgIABAgEAAAjBiQAIAQAI=</HashCode>
+      <FileName>Core\GameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAEAAAAAAAAAAAQABAAACAAAAAAA=</HashCode>
+      <FileName>Core\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryPool" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEFCDIAAAAAAAiEAABAAA=</HashCode>
+      <FileName>Core\MemoryPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectPool" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABCBAAAAAAABiEAACCAA=</HashCode>
+      <FileName>Core\ObjectPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SegmentPool" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAACAAAAAAAAAARAAACAAAEAQAAAgMAAAAAA=</HashCode>
+      <FileName>Core\SegmentPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeManager" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAQAAAAAgAgAAAABAAAAAACAiAAAAQAA=</HashCode>
+      <FileName>Core\TimeManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Device" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACAEAAAQABkAAAAABAACAAgFIkAgAADAiAAYEAAI=</HashCode>
+      <FileName>Core\Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Actor" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQAAASAAKAQgAEEAgBAAEJgAADIBAAABBACMEEhUqQ=</HashCode>
+      <FileName>Object\Actor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KACAAAAAAQCMAAAgEAEAAQAAAABAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Object\Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubManager" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAABAAAAEAAACAAAAAAA=</HashCode>
+      <FileName>Object\SubManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestActor" Collapsed="true">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAABAAABAAIAAABACAAAAQAA=</HashCode>
+      <FileName>Object\TestActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestObject" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAEAAAAAAAAAAABAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Object\TestObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asset" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAABAIAAAAAAgQAAABAA=</HashCode>
+      <FileName>Object\Asset\Asset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssetManager" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAgABAgAAAAQAAAABAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Object\Asset\AssetManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEIAIAAAAAAAAAAAABAAgBAARAAAAEAAAA=</HashCode>
+      <FileName>Object\Asset\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshManager" Collapsed="true">
+    <Position X="15" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAABAAACAQAAiAAEAAAA=</HashCode>
+      <FileName>Object\Asset\MeshManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorMeshShader" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Shader\ColorMeshShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicShader" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACEAAEAAAAAACgAAAAAAABAAEAAhAACEAQgiAA=</HashCode>
+      <FileName>Shader\GraphicShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAAAAAA=</HashCode>
+      <FileName>Shader\Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderManager" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEACAEwAAEAACAAAAABAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Shader\ShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBuffer" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAhAAAAAAQIAAABAAAAAABAAEAAAAIAAAIAAAA=</HashCode>
+      <FileName>Shader\CBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActorComponent" Collapsed="true">
+    <Position X="19.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAABAAAAAAAABAAAAAAAACAAAAQAA=</HashCode>
+      <FileName>Component\ActorComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgoAAIAIAAAAIAIABAAAAAAABAAAAAABBCQAAARAA=</HashCode>
+      <FileName>Component\Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshComponent" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAICIEAAAAAAAAAAAgAhAAAAABBACAAAAQAA=</HashCode>
+      <FileName>Component\MeshComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneComponent" Collapsed="true">
+    <Position X="17.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAIAAIAAEAAIAgBAAEBwAABMBAACBBACJQQhUkQ=</HashCode>
+      <FileName>Component\SceneComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="FResolution" Collapsed="true">
+    <Position X="26" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FVertexBuffer" Collapsed="true">
+    <Position X="27.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FIndexBuffer" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAACACAAAIAAAA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FVertexColor" Collapsed="true">
+    <Position X="29.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTransform" Collapsed="true">
+    <Position X="29.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAACA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTransformMatirx" Collapsed="true">
+    <Position X="26" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAGA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FVector2D" Collapsed="true">
+    <Position X="27.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAwAgAAAUAEAAQBACQAAAABAAAAgAAAAAAA=</HashCode>
+      <FileName>Common\Vector2D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FVector3D" Collapsed="true">
+    <Position X="29.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMAAQAgAAAUIEgAQBACQAAAABAAACkAAAAIAA=</HashCode>
+      <FileName>Common\Vector3D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FVector4D" Collapsed="true">
+    <Position X="24.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAAQAEAAQCAAAAAAAAAAAAwAAAAIAA=</HashCode>
+      <FileName>Common\Vector4D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FSegment" Collapsed="true">
+    <Position X="27.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Core\SegmentPool.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FVertex" Collapsed="true">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Core\Device.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FTransformCBufferData" Collapsed="true">
+    <Position X="24.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAABAAAAAAAAAAAAACAQAAAAAEA=</HashCode>
+      <FileName>Shader\CBufferData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="eObjectType" Collapsed="true">
+    <Position X="27.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eAssetType" Collapsed="true">
+    <Position X="24.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eLogLevel" Collapsed="true">
+    <Position X="26" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAABAAgAAAAAAAAAAAAEAEAAA=</HashCode>
+      <FileName>Core\Logger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SHADER_TYPE::eType" Collapsed="true">
+    <Position X="29.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Info.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

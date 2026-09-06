@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{bcb62b17-d8af-4fd3-9997-955e3783f370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{061b8a99-b1b0-40be-a83b-34aa82bef69d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Memory">
+      <UniqueIdentifier>{8ee59e68-76d8-4140-9fe3-61f7e649dd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{940ad56f-0e5b-4e45-996f-6e7b63f9e55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Time">
+      <UniqueIdentifier>{40b8f930-9875-4d17-970b-3cbafb6c70dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{08462e16-d53f-40ae-a650-35edcf7a6ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset\Mesh">
+      <UniqueIdentifier>{f22abeb4-1ed5-469f-b680-fa526f9a6cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Device">
+      <UniqueIdentifier>{2511de4f-4a4c-454a-aa00-31deebfecbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{fd312ef3-f2d0-4f05-908d-11041d834756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Graphic">
+      <UniqueIdentifier>{8ba13287-d600-40b9-aeca-e87b13f7cb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Graphic\Color">
+      <UniqueIdentifier>{6a661b42-02ca-4ca3-9339-c55072947ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\HLSL">
+      <UniqueIdentifier>{be4493fb-5e18-48dc-b4cb-6ae84b2a5d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderClass">
+      <UniqueIdentifier>{53caf51b-3bd0-45ab-9f51-d81058570bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ConstantBuffer">
+      <UniqueIdentifier>{be517a55-eabe-44fc-9766-8cb9bd9f6034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{99946ad0-8bfe-40f7-8efd-58d54b287f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{ecb62d8f-66b8-4c87-bf9b-a9e2df28bef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{5ad4ee68-acdc-4a09-8c07-389006f2a151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{a1878718-ed63-4497-882b-cf82aca502c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{2dab31d6-b3a7-4f10-a10c-e0b8d9f2435f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{a09924b2-bb75-4e05-b3a5-df65919d2c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\SceneComponent">
+      <UniqueIdentifier>{8b7018d3-aacb-413a-93f9-753da122a32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headeers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Component\ActorComponent">
+      <UniqueIdentifier>{311dddfd-c630-4876-9cb5-6860f546b2b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Info.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Singleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MemoryPool.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ObjectPool.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SegmentPool.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Defines.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameEngine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Logger.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LogManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DirectoryManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TimeManager.h">
+      <Filter>Core\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Vector2D.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Vector3D.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Vector4D.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EngineMath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Matrix.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Device.h">
+      <Filter>Core\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Mesh\Mesh.h">
+      <Filter>Asset\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Mesh\MeshManager.h">
+      <Filter>Asset\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Asset.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\AssetManager.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SubManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Shader.h">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ShaderManager.h">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ColorMeshShader.h">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\GraphicShader.h">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\CBufferData.h">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Actor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\CBuffer.h">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Level.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\TagManager.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputAction.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputContext.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystem.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\PlayerController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Pawn.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Timer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\CameraManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionProfile.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionProfileManager.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\CameraComponent.h">
+      <Filter>Component\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\CollisionComponent.h">
+      <Filter>Component\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionManager.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionSystem.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\ColorCBuffer.h">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\TransformCBuffer.h">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\FrameMeshShader.h">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AABBCollisionComponent.h">
+      <Filter>Component\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SphereCollisionComponent.h">
+      <Filter>Component\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\OBBCollisionComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Texture\Texture.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Texture\TextureManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Material\Material.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Material\MaterialManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\MaterialCBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\StaticMeshShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\StaticMeshComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\MaterialPixelShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\BlendState.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\DepthStencilState.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderState.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderStateManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Animation\Animation.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Animation\Animation2DSequence.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Animation\Animation2D.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Animation\SpriteComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Animation\AnimationManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Animation\Animation2DData.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\AnimCBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\SpriteShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\SceneComponent.h">
+      <Filter>Component\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\MeshComponent.h">
+      <Filter>Component\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ActorComponent.h">
+      <Filter>Component\ActorComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\InputComponent.h">
+      <Filter>Component\ActorComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\MovementComponent.h">
+      <Filter>Component\ActorComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\SpriteCBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Sound\Sound.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Sound\SoundManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Sound\SoundComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RasterizerState.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AI\AIBoard.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AI\AIComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AI\AIState.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AI\AITransition.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\AIController.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Font\Font.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Font\FontCollection.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Asset\Font\FontManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Prob.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\SpriteMeshShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditEngine.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\EditorUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\AnimationUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\ParticleEditorUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\InspectorUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\MainMenuUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\OutLinerUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\TownScene.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\TutorialScene.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Image.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ProgressBar.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TextBlock.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Widget.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\UIShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\ProgressBarCBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\UICBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ProgressBarShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\StructBuffer\SBufferData.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\FogShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\FogPlaneCBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\FogPlaneShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\FogPlaneComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FogPlane.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ParallaxLayerComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Interface\Interface.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\LoadUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\PopUpUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\SaveUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\UI\WidgetComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AI\MachineBase.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\EdgeCollisionComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\StructBuffer\SBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\StructBuffer\TileLineSBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\ViewportRenderTarget.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\ViewportUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imconfig.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imgui.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imgui_impl_dx11.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imgui_impl_win32.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imgui_internal.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\ImGuizmo.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imstb_rectpack.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imstb_textedit.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Imgui\imstb_truetype.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\SpriteBatch.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\SpriteBatchShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TileGrid.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\RenderModifier2DComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\Crossroad_01_Scene.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\ParticleComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\ParticleCBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ParticleShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\Crossroad_11_Scene.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\StructBuffer\ParticleSBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\PlatformMovementComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\LightActor.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Light2DComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\LightRenderPass.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderTarget2D.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\LightCompositeShader.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\FinalBoss_Street.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\RoomTempleScene.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\MainMenu.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AI\PlayerStateMachine.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AnimActor.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Camera.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CameraZone.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\PlayerSlash.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TutorialDoor.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\TileRideMovementComponent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderPass.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\Crossroad_02_Scene.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\Grimm_MainTent.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Gate.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Grimm.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Scene\Crossroad_10.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Crawler.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Buzzer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ConstantBuffer\CompositeDebugCBuffer.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorUI\RenderDebugUI.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\AI\BuzzerStateMachine.h">
+      <Filter>headeers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\MemoryPool.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ObjectPool.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SegmentPool.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LogManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DirectoryManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\TimeManager.cpp">
+      <Filter>Core\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Vector2D.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Vector3D.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Vector4D.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Matrix.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Device.cpp">
+      <Filter>Core\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Asset\Mesh\Mesh.cpp">
+      <Filter>Asset\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Asset\Mesh\MeshManager.cpp">
+      <Filter>Asset\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Asset\Asset.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Asset\AssetManager.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SubManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\Shader.cpp">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ShaderManager.cpp">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\GraphicShader.cpp">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\CBufferData.cpp">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Actor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ConstantBuffer\CBuffer.cpp">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ColorMeshShader.cpp">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Level.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\TagManager.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputAction.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputContext.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\PlayerController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Pawn.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Timer.cpp" />
+    <ClCompile Include="Object\Monster.cpp" />
+    <ClCompile Include="World\CameraManager.cpp" />
+    <ClCompile Include="Collision\CollisionProfile.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionProfileManager.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\CollisionComponent.cpp">
+      <Filter>Component\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\CameraComponent.cpp">
+      <Filter>Component\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionManager.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionSystem.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ConstantBuffer\ColorCBuffer.cpp">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ConstantBuffer\TransformCBuffer.cpp">
+      <Filter>Shader\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\FrameMeshShader.cpp">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\AABBCollisionComponent.cpp">
+      <Filter>Component\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\SphereCollisionComponent.cpp">
+      <Filter>Component\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\OBBCollisionComponent.cpp" />
+    <ClCompile Include="Object\Asset\Texture\Texture.cpp" />
+    <ClCompile Include="Object\Asset\Texture\TextureManager.cpp" />
+    <ClCompile Include="Object\Asset\Material\Material.cpp" />
+    <ClCompile Include="Object\Asset\Material\MaterialManager.cpp" />
+    <ClCompile Include="Shader\ConstantBuffer\MaterialCBuffer.cpp" />
+    <ClCompile Include="Shader\StaticMeshShader.cpp" />
+    <ClCompile Include="Component\StaticMeshComponent.cpp" />
+    <ClCompile Include="Shader\MaterialPixelShader.cpp" />
+    <ClCompile Include="Render\RenderManager.cpp" />
+    <ClCompile Include="Render\BlendState.cpp" />
+    <ClCompile Include="Render\DepthStencilState.cpp" />
+    <ClCompile Include="Render\RenderState.cpp" />
+    <ClCompile Include="Render\RenderStateManager.cpp" />
+    <ClCompile Include="Object\Asset\Animation\Animation.cpp" />
+    <ClCompile Include="Object\Asset\Animation\Animation2DSequence.cpp" />
+    <ClCompile Include="Component\Animation\Animation2D.cpp" />
+    <ClCompile Include="Component\Animation\SpriteComponent.cpp" />
+    <ClCompile Include="Object\Asset\Animation\AnimationManager.cpp" />
+    <ClCompile Include="Object\Asset\Animation\Animation2DData.cpp" />
+    <ClCompile Include="Shader\ConstantBuffer\AnimCBuffer.cpp" />
+    <ClCompile Include="Shader\SpriteShader.cpp" />
+    <ClCompile Include="Component\SceneComponent.cpp">
+      <Filter>Component\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\MeshComponent.cpp">
+      <Filter>Component\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\ActorComponent.cpp">
+      <Filter>Component\ActorComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\InputComponent.cpp">
+      <Filter>Component\ActorComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\MovementComponent.cpp">
+      <Filter>Component\ActorComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ConstantBuffer\SpriteCBuffer.cpp" />
+    <ClCompile Include="Object\Asset\Sound\Sound.cpp" />
+    <ClCompile Include="Object\Asset\Sound\SoundManager.cpp" />
+    <ClCompile Include="Component\Sound\SoundComponent.cpp" />
+    <ClCompile Include="Render\RasterizerState.cpp" />
+    <ClCompile Include="Component\AI\AIBoard.cpp" />
+    <ClCompile Include="Component\AI\AIComponent.cpp" />
+    <ClCompile Include="Component\AI\AIState.cpp" />
+    <ClCompile Include="Component\AI\AITransition.cpp" />
+    <ClCompile Include="Controller\AIController.cpp" />
+    <ClCompile Include="Object\Asset\Font\Font.cpp" />
+    <ClCompile Include="Object\Asset\Font\FontCollection.cpp" />
+    <ClCompile Include="Object\Asset\Font\FontManager.cpp" />
+    <ClCompile Include="Object\Prob.cpp" />
+    <ClCompile Include="Shader\SpriteMeshShader.cpp" />
+    <ClCompile Include="Editor\EditEngine.cpp" />
+    <ClCompile Include="Editor\EditorUI\EditorUI.cpp" />
+    <ClCompile Include="Editor\EditorUI\AnimationUI.cpp" />
+    <ClCompile Include="Editor\EditorUI\ParticleEditorUI.cpp" />
+    <ClCompile Include="Editor\EditorUI\InspectorUI.cpp" />
+    <ClCompile Include="Editor\EditorUI\MainMenuUI.cpp" />
+    <ClCompile Include="Editor\EditorUI\OutLinerUI.cpp" />
+    <ClCompile Include="World\Scene\TownScene.cpp" />
+    <ClCompile Include="World\Scene\TutorialScene.cpp" />
+    <ClCompile Include="UI\Button.cpp" />
+    <ClCompile Include="UI\Image.cpp" />
+    <ClCompile Include="UI\ProgressBar.cpp" />
+    <ClCompile Include="UI\TextBlock.cpp" />
+    <ClCompile Include="UI\UIManager.cpp" />
+    <ClCompile Include="UI\Widget.cpp" />
+    <ClCompile Include="Shader\UIShader.cpp" />
+    <ClCompile Include="Shader\ConstantBuffer\ProgressBarCBuffer.cpp" />
+    <ClCompile Include="Shader\ConstantBuffer\UICBuffer.cpp" />
+    <ClCompile Include="Shader\ProgressBarShader.cpp" />
+    <ClCompile Include="Shader\StructBuffer\SBufferData.cpp" />
+    <ClCompile Include="Shader\FogShader.cpp" />
+    <ClCompile Include="Shader\ConstantBuffer\FogPlaneCBuffer.cpp" />
+    <ClCompile Include="Shader\FogPlaneShader.cpp" />
+    <ClCompile Include="Component\FogPlaneComponent.cpp" />
+    <ClCompile Include="Object\FogPlane.cpp" />
+    <ClCompile Include="Component\ParallaxLayerComponent.cpp" />
+    <ClCompile Include="Editor\EditorUI\LoadUI.cpp" />
+    <ClCompile Include="Editor\EditorUI\PopUpUI.cpp" />
+    <ClCompile Include="Editor\EditorUI\SaveUI.cpp" />
+    <ClCompile Include="Component\UI\WidgetComponent.cpp" />
+    <ClCompile Include="Component\AI\MachineBase.cpp" />
+    <ClCompile Include="Component\EdgeCollisionComponent.cpp" />
+    <ClCompile Include="Shader\StructBuffer\SBuffer.cpp" />
+    <ClCompile Include="Shader\StructBuffer\TileLineSBuffer.cpp" />
+    <ClCompile Include="Editor\EditorUI\ViewportRenderTarget.cpp" />
+    <ClCompile Include="Editor\EditorUI\ViewportUI.cpp" />
+    <ClCompile Include="Editor\Imgui\imgui.cpp" />
+    <ClCompile Include="Editor\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="Editor\Imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Editor\Imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Editor\Imgui\imgui_tables.cpp" />
+    <ClCompile Include="Editor\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Editor\Imgui\ImGuizmo.cpp" />
+    <ClCompile Include="Render\SpriteBatch.cpp" />
+    <ClCompile Include="Shader\SpriteBatchShader.cpp" />
+    <ClCompile Include="Render\TileGrid.cpp" />
+    <ClCompile Include="Component\RenderModifier2DComponent.cpp" />
+    <ClCompile Include="World\Scene\Crossroad_01_Scene.cpp" />
+    <ClCompile Include="Component\ParticleComponent.cpp" />
+    <ClCompile Include="Shader\ConstantBuffer\ParticleCBuffer.cpp" />
+    <ClCompile Include="Shader\ParticleShader.cpp" />
+    <ClCompile Include="World\Scene\Crossroad_11_Scene.cpp" />
+    <ClCompile Include="Shader\StructBuffer\ParticleSBuffer.cpp" />
+    <ClCompile Include="Component\PlatformMovementComponent.cpp" />
+    <ClCompile Include="Object\LightActor.cpp" />
+    <ClCompile Include="Component\Light2DComponent.cpp" />
+    <ClCompile Include="Render\LightRenderPass.cpp" />
+    <ClCompile Include="Render\RenderTarget2D.cpp" />
+    <ClCompile Include="Shader\LightCompositeShader.cpp" />
+    <ClCompile Include="World\Scene\FinalBoss_Street.cpp" />
+    <ClCompile Include="World\Scene\RoomTempleScene.cpp" />
+    <ClCompile Include="World\Scene\MainMenu.cpp" />
+    <ClCompile Include="Component\AI\PlayerStateMachine.cpp" />
+    <ClCompile Include="Object\AnimActor.cpp" />
+    <ClCompile Include="Object\Camera.cpp" />
+    <ClCompile Include="Object\CameraZone.cpp" />
+    <ClCompile Include="Object\PlayerSlash.cpp" />
+    <ClCompile Include="Object\TutorialDoor.cpp" />
+    <ClCompile Include="Component\TileRideMovementComponent.cpp" />
+    <ClCompile Include="Render\RenderPass.cpp" />
+    <ClCompile Include="World\Scene\Crossroad_02_Scene.cpp" />
+    <ClCompile Include="World\Scene\Grimm_MainTent.cpp" />
+    <ClCompile Include="Object\Gate.cpp" />
+    <ClCompile Include="Object\Grimm.cpp" />
+    <ClCompile Include="World\Scene\Crossroad_10.cpp" />
+    <ClCompile Include="Object\Crawler.cpp" />
+    <ClCompile Include="Object\Buzzer.cpp" />
+    <ClCompile Include="Shader\ConstantBuffer\CompositeDebugCBuffer.cpp" />
+    <ClCompile Include="Editor\EditorUI\RenderDebugUI.cpp" />
+    <ClCompile Include="Component\AI\BuzzerStateMachine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\HLSL\ColorMesh.fx">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\Share.fx">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\Mesh.fx" />
+    <FxCompile Include="..\HLSL\Sprite.fx" />
+    <FxCompile Include="..\HLSL\FogPlaneShader.fx" />
+    <FxCompile Include="..\HLSL\SpriteBatch.fx" />
+    <FxCompile Include="..\HLSL\Particle.fx" />
+    <FxCompile Include="..\HLSL\LightComposite.fx" />
+    <FxCompile Include="..\HLSL\UI.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

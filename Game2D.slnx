@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Debug_MP" />
+    <BuildType Name="Debug_OP" />
+    <BuildType Name="Editor" />
+    <BuildType Name="Release" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Client/Client.vcxproj" Id="fae35489-fbe1-48bb-b97b-9ddcfb0a5044" />
+</Solution>
